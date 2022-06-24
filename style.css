@@ -1,0 +1,169 @@
+/* fonts:
+
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  width: 840px;
+  height: 1305px;
+  margin: auto;
+  padding: 55px 135px;
+  background-color: #F7F7F7;
+}
+
+.form-container {
+  width: 570px;
+  height: 590px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  padding: 35px 34px 15px 34px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;;
+}
+
+.labelandinput {
+  display: inline-block;
+  margin: 0 2px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 245px;
+  height: 38px;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px; /*for test*/
+  margin-top: 8px;
+}
+
+input[type="text"]:hover {
+  border: 1px solid #007BFF
+}
+
+input[type="email"] {
+  width: 500px;
+  height: 38px;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  margin-bottom: 7px;
+}
+
+input[type="email"]:hover {
+  border: 1px solid #007BFF
+}
+
+select {
+  width: 245px;
+  height: 38px;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+select:hover {
+border: 1px solid #007BFF;
+}
+
+.radiobutton {
+  display: inline-block;
+  margin: 0px 20px 20px 0;
+}
+
+button#signup {
+  width: 500px;
+  height: 38px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+
+.account{
+}
+
+.create {}
+
+.create__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C1C1C;
+}
+
+.create__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #969696;
+}
+
+.create__text-left {
+  text-align: left;
+}
+
+.create__text-center {
+  width: 410px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.link {
+  color: #007BFF !important;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  width: 500px;
+  border-top: 1px solid #E4E4E4;
+  margin-bottom: 20px;
+}
+
+.login__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+  margin: 0 10px;
+}
+
+a.login__text {
+  font-weight: 500;
+}
